@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between
+}
+.nav-form input {
+    width: 690px;
+    height: 40px;
+    border: 1px solid #BFBFBF;
+    
+}
+.nav-button a:first-child {
+    display: inline-block;
+    width: 97px;
+    height: 40px;
+    background-color: #1890FF;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.nav-button a:last-child {
+    display: inline-block;
+    width: 97px;
+    height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #595959;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #BFBFBF;
+}
+.nav-logo, .nav-form, .nav-button {
+    align-self: center;
+}
+
+
+
+
+.header-banner {
+    margin-top: 40px;
+    max-width: 1200px;
+    height: 300px;
+    background-image: url('../img/promo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 0 70px;
+    box-sizing: border-box;
+}
+.header-banner h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+    margin: 0;
+    padding: 0;
+}
+.header-banner p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
