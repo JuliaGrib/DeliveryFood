@@ -13,30 +13,45 @@ body {
 .nav {
     display: flex;
     margin-top: 40px;
-    justify-content: space-between
+    justify-content: space-between;  
+    align-items: center;
 }
-.nav-form input {
+.nav input {
     width: 690px;
     height: 40px;
     border: 1px solid #BFBFBF;
     border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 32px;
+    background-image: url('../img/home.svg');
+    background-repeat: no-repeat;
+    background-position: 11px center;
     
 }
+.nav-button {
+    display: flex;
+}
 .nav-button a:first-child {
-    display: inline-block;
+    display: flex;
     width: 97px;
     height: 40px;
     background-color: #1890FF;
     font-size: 16px;
     text-decoration: none;
     color: white;
-    text-align: center;
     box-sizing: border-box;
-    
+    align-items: center;
+    padding-left: 16px;
+    margin-right: 14px;
+    border-radius: 2px;
 }
 .nav-button a:last-child {
-    display: inline-block;
-    width: 97px;
+    display: flex;
+    align-items: center;
+    width: 117px;
     height: 40px;
     font-size: 16px;
     text-decoration: none;
@@ -44,13 +59,9 @@ body {
     text-align: center;
     box-sizing: border-box;
     border: 1px solid #BFBFBF;
+    padding-left: 16px;
+    border-radius: 2px;
 }
-.nav-logo, .nav-form, .nav-button {
-    align-self: center;
-}
-
-
-
 
 .header-banner {
     margin-top: 40px;
@@ -101,6 +112,12 @@ body {
     height: 34px;
     border: 1px solid #BFBFBF;
     border-radius: 2px;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: 11px center;
+    padding-left: 32px;
+    font-size: 16px;
+    line-height: 24px;
 }
 .menu-section {
     margin-top: 50px;
@@ -125,6 +142,10 @@ body {
 .img-menu {
     width: 100%;
     border-radius: 7px 7px 0 0;
+}
+.img-menu:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .head-menu-item {
     display: flex;
